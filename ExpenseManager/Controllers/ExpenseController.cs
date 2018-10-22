@@ -63,6 +63,7 @@ namespace ExpenseManager.Controllers
         {
             Dictionary<string, decimal> weeklyExpense = objexpense.CalculateWeeklyExpense();
             return new JsonResult(weeklyExpense);
+            //Expenadifaifjiodsjfajfklasjf 
         }
     }
 }
